@@ -1,0 +1,352 @@
+.bg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(198, 198, 198);
+
+}
+
+.accordion-section{
+    background: rgba(255, 255, 255, 1);
+    width: 442px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    font-family: Inter;
+    font-size: 21.08px;
+    font-weight: 700;
+    line-height: 25.51px;
+    text-align: center;
+    color: rgba(255, 107, 130, 1);
+    margin: 10px 0;
+}
+
+.accordion{
+    width: 342px;
+    height: 74px;
+    border-radius: 15px;
+    border: 1px solid #a7a7a7;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-section{
+    width: 70px;
+    height: 74px;
+    border-radius: 12px 0px 0px 12px;
+    border: 0.9px 0px 0.9px 0.9px;
+    background: rgba(255, 107, 130, 1);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-right-style: dashed;
+    border-right-color: #fff;
+}
+
+.left-section h1{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16.35px;
+    text-align: center;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.left-section span{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.radio{
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    
+}
+
+.radio:checked {
+    background-color: rgba(255, 107, 130, 1); 
+    border-color: rgba(255, 107, 130, 1); 
+}
+
+.offer-section h1{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.offer-section h2{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.accordion-2{
+    width: 342px;
+    height: 172px;
+    border: 1px solid #FF6B82;
+    background-color: rgb(251, 232, 234); 
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    display: none;
+}
+
+.offers-section-2{
+    display: flex;
+    align-items: center;
+    
+}
+
+.radio-section h1{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.radio-section h2{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align: left;
+    margin: 0;
+}
+
+.radio-section .h1-span{
+   background: rgba(255, 107, 130, 1);
+   color: #fff;
+   padding: 2px;
+   border-radius: 3px;
+   font-size: 12px;
+}
+
+.h2-span{
+    font-family: Inter;
+    font-size: 9.94px;
+    font-weight: 400;
+    line-height: 12.03px;
+    text-align: left;
+    text-decoration: line-through;
+    color:rgba(159, 159, 159, 1)
+}
+
+.dropdown-text-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dropdown-text-section p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.03px;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.dropdown-section{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.dropdown-section h1{
+    margin: 0;
+    margin-top:8px;
+    margin-right: 4px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 10.94px;
+    text-align: left;
+
+}
+
+.select-element{
+    width: 52px;
+    height: 25.31px;
+    border-radius: 1.81px 0px 0px 0px;
+    border: 0.9px 0px 0px 0px;
+}
+
+.select-element-1{
+    width: 58px;
+    height: 25.31px;
+    border-radius: 1.81px 0px 0px 0px;
+    border: 0.9px 0px 0px 0px;
+    margin-left: 5px;
+}
+
+.hidden {
+    display: none !important; /* Forcefully hide elements */
+  }
+
+.popular-item{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 18px;
+    color: rgba(255, 107, 130, 1);
+}
+
+.delivery-section{
+    width: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-1{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(255, 107, 130, 1);
+}
+
+.total-fair{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+}
+
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 342px;
+    height: 40px;
+    border-radius: 4px;
+    border:none;
+    background: rgba(255, 107, 130, 1);
+    color:#FFFFFF;
+}
+
+.add-to-cart .icon {
+    margin-right: 20px; 
+}
+
+.advertise-h1{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(212, 212, 212, 1);
+}
+
+.advertise{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    color: rgba(255, 44, 49, 1);
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your breakpoints */
+    .accordion-section {
+        width: 90%;
+        max-width: none; /* Remove max-width for smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px;
+    }
+
+    header {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .accordion {
+        width: 100%;
+        height: 60px;
+        margin-top: 15px;
+    }
+
+    .left-section {
+        width: 60px;
+        height: 60px;
+    }
+
+    .offer-section h1 {
+        font-size: 18px;
+    }
+
+    .offer-section h2 {
+        font-size: 20px;
+    }
+
+    .radio-section h1 {
+        font-size: 18px;
+    }
+
+    .radio-section h2 {
+        font-size: 20px;
+    }
+
+    .dropdown-text-section p {
+        font-size: 14px;
+    }
+
+    .dropdown-section h1 {
+        font-size: 13px;
+    }
+
+    .select-element, .select-element-1 {
+        width: 40px; /* Adjust as needed */
+        height: 20px;
+    }
+
+    .delivery-section {
+        width: 90%;
+        max-width: none; /* Remove max-width for smaller screens */
+        padding: 10px; /* Optional: add padding if needed */
+    }
+
+    .d-1, .total-fair {
+        font-size: 12px; /* Adjust font size if needed */
+    }
+
+    .add-to-cart {
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .popular-item, .advertise-h1, .advertise {
+        font-size: 12px;
+    }
+}
